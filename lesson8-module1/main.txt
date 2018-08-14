@@ -1,0 +1,17 @@
+自定义模板
+本节任务：
+1、模板组成
+2、npm
+3、发布自定义模板
+
+总结：
+1、模板组成（require/modele/exports）
+2、npm(包管理工具)
+ 2.1、安装 npm install xx(包名字)
+    注意：安装包之后，会产生一个node_modules文件夹
+ 2.2、自定义模板时，统一放在node_modules文件夹中,这样引入模板不用加上./
+3、发布自定义模板
+ 3.1、首先注册npm，这样之后才可以发布
+ 3.2、npm init 初始化一个包的信息，然后会产生一个package.json文件
+ 3.3、在一个js文件中写上内容
+ 3.4、npm publish发布

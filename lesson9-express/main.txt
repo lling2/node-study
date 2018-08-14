@@ -1,0 +1,14 @@
+1、创建服务
+var server = express();
+2、监听
+server.listen(8282);
+3、处理请求
+server.use("",function(){
+
+})
+
+------------------------------
+总结：express一共有三种接收用户请求的方法
+.get('',function(req,res){})
+.post('',function(req,res){})
+.use('',function(req,res){})//它通吃get与post方法
