@@ -1,0 +1,21 @@
+模板引擎：
+主流两种方式：jade、ejs
+
+jade:破坏式、与html+css不共存
+ejs:温和性、保护式
+
+jade:
+    1、jade.render('字符串')
+    2、jade.renderFile('路径',{property:true})
+
+    3、注意
+        a、根据缩进，规定层级
+        b、属性放在（）里面,用逗号隔开
+        c、添加内容 直接空1格 放在后面
+        d、注意：style属性值：除了可以用普通的（）表示,还可以用json形式表示。eg:div(style={width:'',height:''})
+                class属性值:除了用普通的（）表示,还可以用[]形式表示。
+        e、简写模式
+        f、用json表示除了style的其他属性,必须使用&attribute()
+          eg:div&attribute({})
+ejs:
+    ejs.readFile('路径',{参数值},function(err,data){})    
