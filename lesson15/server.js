@@ -38,7 +38,7 @@ server.set('view engine','html')
 // 接收用户需求
 server.get('/index',function(req,res){
     res.render('1.ejs',{name:'alice'})
-})
+}) 
 
 // 4、static数据
 server.use(static('./www'))
