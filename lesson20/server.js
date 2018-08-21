@@ -83,7 +83,7 @@ server.get('/article',(req,res)=>{
                 articleData.sDate = common.time2date(articleData.post_time);
                 articleData.content = articleData.content.replace(/^/gm,'<p>').replace(/$/gm,'</p>');
                 res.render('conText.ejs',{article_data:articleData});
-                console.log(articleData.sDate);
+                // console.log(articleData.sDate);
             }
         }
     })
