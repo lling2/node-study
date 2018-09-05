@@ -1,0 +1,1502 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'multer' ]
+2 info using npm@4.1.2
+3 info using node@v7.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData multer
+8 silly fetchNamedPackageData multer
+9 silly mapToRegistry name multer
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npm.taobao.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'multer',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'multer',
+12 silly mapToRegistry   name: 'multer',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npm.taobao.org/multer
+14 verbose request uri https://registry.npm.taobao.org/multer
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 16:07:08
+17 verbose request id f2ef0df0dcf5d81a
+18 verbose etag "11551-XuB4QAN2ySatYR9lgQi/M0r6j/8"
+19 http request GET https://registry.npm.taobao.org/multer
+20 http 304 https://registry.npm.taobao.org/multer
+21 verbose headers { date: 'Mon, 03 Sep 2018 08:07:08 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-current-requests': '1',
+21 verbose headers   vary: 'Origin',
+21 verbose headers   etag: '"11551-XuB4QAN2ySatYR9lgQi/M0r6j/8"',
+21 verbose headers   'x-readtime': '24',
+21 verbose headers   via: 'npmtaobao21' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Mon, 03 Sep 2018 08:07:08 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-current-requests': '1',
+22 silly get     vary: 'Origin',
+22 silly get     etag: '"11551-XuB4QAN2ySatYR9lgQi/M0r6j/8"',
+22 silly get     'x-readtime': '24',
+22 silly get     via: 'npmtaobao21' } ]
+23 verbose etag https://registry.npm.taobao.org/multer from cache
+24 verbose get saving multer to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\multer\.cache.json
+25 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule multer@1.3.1 checking installable status
+39 silly cache add args [ 'multer', null ]
+40 verbose cache add spec multer
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'multer',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'multer',
+41 silly cache add   name: 'multer',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed multer@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for multer
+44 info addNameTag [ 'multer', 'latest' ]
+45 silly mapToRegistry name multer
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npm.taobao.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'multer',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'multer',
+48 silly mapToRegistry   name: 'multer',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npm.taobao.org/multer
+50 verbose addNameTag registry:https://registry.npm.taobao.org/multer not in flight; fetching
+51 verbose request uri https://registry.npm.taobao.org/multer
+52 verbose request no auth needed
+53 info attempt registry request try #1 at 16:07:09
+54 verbose etag "11551-XuB4QAN2ySatYR9lgQi/M0r6j/8"
+55 http request GET https://registry.npm.taobao.org/multer
+56 http 304 https://registry.npm.taobao.org/multer
+57 verbose headers { date: 'Mon, 03 Sep 2018 08:07:08 GMT',
+57 verbose headers   connection: 'keep-alive',
+57 verbose headers   'x-current-requests': '1',
+57 verbose headers   vary: 'Origin',
+57 verbose headers   etag: '"11551-XuB4QAN2ySatYR9lgQi/M0r6j/8"',
+57 verbose headers   'x-readtime': '40' }
+58 silly get cb [ 304,
+58 silly get   { date: 'Mon, 03 Sep 2018 08:07:08 GMT',
+58 silly get     connection: 'keep-alive',
+58 silly get     'x-current-requests': '1',
+58 silly get     vary: 'Origin',
+58 silly get     etag: '"11551-XuB4QAN2ySatYR9lgQi/M0r6j/8"',
+58 silly get     'x-readtime': '40' } ]
+59 verbose etag https://registry.npm.taobao.org/multer from cache
+60 verbose get saving multer to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\multer\.cache.json
+61 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+62 silly addNameTag next cb for multer with tag latest
+63 silly addNamed multer@1.3.1
+64 verbose addNamed "1.3.1" is a plain semver version for multer
+65 silly cache afterAdd multer@1.3.1
+66 verbose afterAdd C:\Program Files\nodejs\node_cache\multer\1.3.1\package\package.json not in flight; writing
+67 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+68 silly fetchNamedPackageData append-field
+69 silly mapToRegistry name append-field
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npm.taobao.org/
+72 silly mapToRegistry data Result {
+72 silly mapToRegistry   raw: 'append-field',
+72 silly mapToRegistry   scope: null,
+72 silly mapToRegistry   escapedName: 'append-field',
+72 silly mapToRegistry   name: 'append-field',
+72 silly mapToRegistry   rawSpec: '',
+72 silly mapToRegistry   spec: 'latest',
+72 silly mapToRegistry   type: 'tag' }
+73 silly mapToRegistry uri https://registry.npm.taobao.org/append-field
+74 silly fetchNamedPackageData busboy
+75 silly mapToRegistry name busboy
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npm.taobao.org/
+78 silly mapToRegistry data Result {
+78 silly mapToRegistry   raw: 'busboy',
+78 silly mapToRegistry   scope: null,
+78 silly mapToRegistry   escapedName: 'busboy',
+78 silly mapToRegistry   name: 'busboy',
+78 silly mapToRegistry   rawSpec: '',
+78 silly mapToRegistry   spec: 'latest',
+78 silly mapToRegistry   type: 'tag' }
+79 silly mapToRegistry uri https://registry.npm.taobao.org/busboy
+80 silly fetchNamedPackageData concat-stream
+81 silly mapToRegistry name concat-stream
+82 silly mapToRegistry using default registry
+83 silly mapToRegistry registry https://registry.npm.taobao.org/
+84 silly mapToRegistry data Result {
+84 silly mapToRegistry   raw: 'concat-stream',
+84 silly mapToRegistry   scope: null,
+84 silly mapToRegistry   escapedName: 'concat-stream',
+84 silly mapToRegistry   name: 'concat-stream',
+84 silly mapToRegistry   rawSpec: '',
+84 silly mapToRegistry   spec: 'latest',
+84 silly mapToRegistry   type: 'tag' }
+85 silly mapToRegistry uri https://registry.npm.taobao.org/concat-stream
+86 silly fetchNamedPackageData object-assign
+87 silly mapToRegistry name object-assign
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npm.taobao.org/
+90 silly mapToRegistry data Result {
+90 silly mapToRegistry   raw: 'object-assign',
+90 silly mapToRegistry   scope: null,
+90 silly mapToRegistry   escapedName: 'object-assign',
+90 silly mapToRegistry   name: 'object-assign',
+90 silly mapToRegistry   rawSpec: '',
+90 silly mapToRegistry   spec: 'latest',
+90 silly mapToRegistry   type: 'tag' }
+91 silly mapToRegistry uri https://registry.npm.taobao.org/object-assign
+92 silly fetchNamedPackageData xtend
+93 silly mapToRegistry name xtend
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npm.taobao.org/
+96 silly mapToRegistry data Result {
+96 silly mapToRegistry   raw: 'xtend',
+96 silly mapToRegistry   scope: null,
+96 silly mapToRegistry   escapedName: 'xtend',
+96 silly mapToRegistry   name: 'xtend',
+96 silly mapToRegistry   rawSpec: '',
+96 silly mapToRegistry   spec: 'latest',
+96 silly mapToRegistry   type: 'tag' }
+97 silly mapToRegistry uri https://registry.npm.taobao.org/xtend
+98 verbose request uri https://registry.npm.taobao.org/append-field
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 16:07:09
+101 verbose etag "12a9-/umZlV6S0Ympd7uYR49EbzByok0"
+102 http request GET https://registry.npm.taobao.org/append-field
+103 verbose request uri https://registry.npm.taobao.org/object-assign
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 16:07:09
+106 verbose etag "6c0e-G3DTBPfz5mO0a4C/LeCV42iM2cU"
+107 http request GET https://registry.npm.taobao.org/object-assign
+108 verbose request uri https://registry.npm.taobao.org/xtend
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 16:07:09
+111 verbose etag "59ad-piKC/WdR9pa1dSOjFE3ahYeU1eo"
+112 http request GET https://registry.npm.taobao.org/xtend
+113 verbose request uri https://registry.npm.taobao.org/concat-stream
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 16:07:09
+116 verbose etag "dc1c-zUn4d59QqvBkmOMs8SO7VAVwHhI"
+117 http request GET https://registry.npm.taobao.org/concat-stream
+118 verbose request uri https://registry.npm.taobao.org/busboy
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 16:07:09
+121 verbose etag "c823-gnza9TL+aN0Ne4Z4xxAldDRszOU"
+122 http request GET https://registry.npm.taobao.org/busboy
+123 http 304 https://registry.npm.taobao.org/append-field
+124 verbose headers { date: 'Mon, 03 Sep 2018 08:07:08 GMT',
+124 verbose headers   connection: 'keep-alive',
+124 verbose headers   'x-current-requests': '1',
+124 verbose headers   vary: 'Origin',
+124 verbose headers   etag: '"12a9-/umZlV6S0Ympd7uYR49EbzByok0"',
+124 verbose headers   'x-readtime': '10' }
+125 silly get cb [ 304,
+125 silly get   { date: 'Mon, 03 Sep 2018 08:07:08 GMT',
+125 silly get     connection: 'keep-alive',
+125 silly get     'x-current-requests': '1',
+125 silly get     vary: 'Origin',
+125 silly get     etag: '"12a9-/umZlV6S0Ympd7uYR49EbzByok0"',
+125 silly get     'x-readtime': '10' } ]
+126 verbose etag https://registry.npm.taobao.org/append-field from cache
+127 verbose get saving append-field to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\append-field\.cache.json
+128 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+129 silly pickManifestFromRegistryMetadata spec >=0.1.0 <0.2.0 tag latest versions [ '1.0.0', '0.1.0' ]
+130 silly resolveWithNewModule append-field@0.1.0 checking installable status
+131 silly cache add args [ 'append-field@^0.1.0', null ]
+132 verbose cache add spec append-field@^0.1.0
+133 silly cache add parsed spec Result {
+133 silly cache add   raw: 'append-field@^0.1.0',
+133 silly cache add   scope: null,
+133 silly cache add   escapedName: 'append-field',
+133 silly cache add   name: 'append-field',
+133 silly cache add   rawSpec: '^0.1.0',
+133 silly cache add   spec: '>=0.1.0 <0.2.0',
+133 silly cache add   type: 'range' }
+134 silly addNamed append-field@>=0.1.0 <0.2.0
+135 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for append-field
+136 silly addNameRange { name: 'append-field', range: '>=0.1.0 <0.2.0', hasData: false }
+137 silly mapToRegistry name append-field
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npm.taobao.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'append-field',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   escapedName: 'append-field',
+140 silly mapToRegistry   name: 'append-field',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri https://registry.npm.taobao.org/append-field
+142 verbose addNameRange registry:https://registry.npm.taobao.org/append-field not in flight; fetching
+143 verbose request uri https://registry.npm.taobao.org/append-field
+144 verbose request no auth needed
+145 info attempt registry request try #1 at 16:07:09
+146 verbose etag "12a9-/umZlV6S0Ympd7uYR49EbzByok0"
+147 http request GET https://registry.npm.taobao.org/append-field
+148 http 304 https://registry.npm.taobao.org/append-field
+149 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+149 verbose headers   connection: 'keep-alive',
+149 verbose headers   'x-current-requests': '1',
+149 verbose headers   vary: 'Origin',
+149 verbose headers   etag: '"12a9-/umZlV6S0Ympd7uYR49EbzByok0"',
+149 verbose headers   'x-readtime': '10',
+149 verbose headers   via: 'npmtaobao21' }
+150 silly get cb [ 304,
+150 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+150 silly get     connection: 'keep-alive',
+150 silly get     'x-current-requests': '1',
+150 silly get     vary: 'Origin',
+150 silly get     etag: '"12a9-/umZlV6S0Ympd7uYR49EbzByok0"',
+150 silly get     'x-readtime': '10',
+150 silly get     via: 'npmtaobao21' } ]
+151 verbose etag https://registry.npm.taobao.org/append-field from cache
+152 verbose get saving append-field to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\append-field\.cache.json
+153 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+154 silly addNameRange number 2 { name: 'append-field', range: '>=0.1.0 <0.2.0', hasData: true }
+155 silly addNameRange versions [ 'append-field', [ '1.0.0', '0.1.0' ] ]
+156 silly pickManifestFromRegistryMetadata spec >=0.1.0 <0.2.0 tag latest versions [ '1.0.0', '0.1.0' ]
+157 silly addNamed append-field@0.1.0
+158 verbose addNamed "0.1.0" is a plain semver version for append-field
+159 silly cache afterAdd append-field@0.1.0
+160 verbose afterAdd C:\Program Files\nodejs\node_cache\append-field\0.1.0\package\package.json not in flight; writing
+161 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+162 http 304 https://registry.npm.taobao.org/object-assign
+163 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+163 verbose headers   connection: 'keep-alive',
+163 verbose headers   'x-current-requests': '1',
+163 verbose headers   vary: 'Origin',
+163 verbose headers   etag: '"6c0e-G3DTBPfz5mO0a4C/LeCV42iM2cU"',
+163 verbose headers   'x-readtime': '11' }
+164 silly get cb [ 304,
+164 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+164 silly get     connection: 'keep-alive',
+164 silly get     'x-current-requests': '1',
+164 silly get     vary: 'Origin',
+164 silly get     etag: '"6c0e-G3DTBPfz5mO0a4C/LeCV42iM2cU"',
+164 silly get     'x-readtime': '11' } ]
+165 verbose etag https://registry.npm.taobao.org/object-assign from cache
+166 verbose get saving object-assign to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\object-assign\.cache.json
+167 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+168 silly pickManifestFromRegistryMetadata spec >=3.0.0 <4.0.0 tag latest versions [ '4.1.1',
+168 silly pickManifestFromRegistryMetadata   '4.1.0',
+168 silly pickManifestFromRegistryMetadata   '4.0.1',
+168 silly pickManifestFromRegistryMetadata   '4.0.0',
+168 silly pickManifestFromRegistryMetadata   '2.1.1',
+168 silly pickManifestFromRegistryMetadata   '3.0.0',
+168 silly pickManifestFromRegistryMetadata   '2.0.0',
+168 silly pickManifestFromRegistryMetadata   '1.0.0',
+168 silly pickManifestFromRegistryMetadata   '0.4.0',
+168 silly pickManifestFromRegistryMetadata   '0.3.1',
+168 silly pickManifestFromRegistryMetadata   '0.3.0',
+168 silly pickManifestFromRegistryMetadata   '0.2.2',
+168 silly pickManifestFromRegistryMetadata   '0.2.1',
+168 silly pickManifestFromRegistryMetadata   '0.2.0',
+168 silly pickManifestFromRegistryMetadata   '0.1.2',
+168 silly pickManifestFromRegistryMetadata   '0.1.1',
+168 silly pickManifestFromRegistryMetadata   '0.1.0' ]
+169 silly resolveWithNewModule object-assign@3.0.0 checking installable status
+170 silly cache add args [ 'object-assign@^3.0.0', null ]
+171 verbose cache add spec object-assign@^3.0.0
+172 silly cache add parsed spec Result {
+172 silly cache add   raw: 'object-assign@^3.0.0',
+172 silly cache add   scope: null,
+172 silly cache add   escapedName: 'object-assign',
+172 silly cache add   name: 'object-assign',
+172 silly cache add   rawSpec: '^3.0.0',
+172 silly cache add   spec: '>=3.0.0 <4.0.0',
+172 silly cache add   type: 'range' }
+173 silly addNamed object-assign@>=3.0.0 <4.0.0
+174 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for object-assign
+175 silly addNameRange { name: 'object-assign',
+175 silly addNameRange   range: '>=3.0.0 <4.0.0',
+175 silly addNameRange   hasData: false }
+176 silly mapToRegistry name object-assign
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npm.taobao.org/
+179 silly mapToRegistry data Result {
+179 silly mapToRegistry   raw: 'object-assign',
+179 silly mapToRegistry   scope: null,
+179 silly mapToRegistry   escapedName: 'object-assign',
+179 silly mapToRegistry   name: 'object-assign',
+179 silly mapToRegistry   rawSpec: '',
+179 silly mapToRegistry   spec: 'latest',
+179 silly mapToRegistry   type: 'tag' }
+180 silly mapToRegistry uri https://registry.npm.taobao.org/object-assign
+181 verbose addNameRange registry:https://registry.npm.taobao.org/object-assign not in flight; fetching
+182 http 304 https://registry.npm.taobao.org/xtend
+183 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+183 verbose headers   connection: 'keep-alive',
+183 verbose headers   'x-current-requests': '1',
+183 verbose headers   vary: 'Origin',
+183 verbose headers   etag: '"59ad-piKC/WdR9pa1dSOjFE3ahYeU1eo"',
+183 verbose headers   'x-readtime': '21' }
+184 silly get cb [ 304,
+184 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+184 silly get     connection: 'keep-alive',
+184 silly get     'x-current-requests': '1',
+184 silly get     vary: 'Origin',
+184 silly get     etag: '"59ad-piKC/WdR9pa1dSOjFE3ahYeU1eo"',
+184 silly get     'x-readtime': '21' } ]
+185 verbose etag https://registry.npm.taobao.org/xtend from cache
+186 verbose get saving xtend to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\xtend\.cache.json
+187 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+188 http 304 https://registry.npm.taobao.org/concat-stream
+189 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+189 verbose headers   connection: 'keep-alive',
+189 verbose headers   'x-current-requests': '1',
+189 verbose headers   vary: 'Origin',
+189 verbose headers   etag: '"dc1c-zUn4d59QqvBkmOMs8SO7VAVwHhI"',
+189 verbose headers   'x-readtime': '28' }
+190 silly get cb [ 304,
+190 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+190 silly get     connection: 'keep-alive',
+190 silly get     'x-current-requests': '1',
+190 silly get     vary: 'Origin',
+190 silly get     etag: '"dc1c-zUn4d59QqvBkmOMs8SO7VAVwHhI"',
+190 silly get     'x-readtime': '28' } ]
+191 verbose etag https://registry.npm.taobao.org/concat-stream from cache
+192 verbose get saving concat-stream to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\concat-stream\.cache.json
+193 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+194 verbose request uri https://registry.npm.taobao.org/object-assign
+195 verbose request no auth needed
+196 info attempt registry request try #1 at 16:07:09
+197 verbose etag "6c0e-G3DTBPfz5mO0a4C/LeCV42iM2cU"
+198 http request GET https://registry.npm.taobao.org/object-assign
+199 silly pickManifestFromRegistryMetadata spec >=4.0.0 <5.0.0 tag latest versions [ '4.0.1',
+199 silly pickManifestFromRegistryMetadata   '4.0.0',
+199 silly pickManifestFromRegistryMetadata   '3.0.0',
+199 silly pickManifestFromRegistryMetadata   '2.2.0',
+199 silly pickManifestFromRegistryMetadata   '2.1.2',
+199 silly pickManifestFromRegistryMetadata   '2.1.1',
+199 silly pickManifestFromRegistryMetadata   '2.0.6',
+199 silly pickManifestFromRegistryMetadata   '2.0.5',
+199 silly pickManifestFromRegistryMetadata   '2.0.4',
+199 silly pickManifestFromRegistryMetadata   '2.0.3',
+199 silly pickManifestFromRegistryMetadata   '2.0.2',
+199 silly pickManifestFromRegistryMetadata   '2.0.1',
+199 silly pickManifestFromRegistryMetadata   '1.0.3',
+199 silly pickManifestFromRegistryMetadata   '1.0.2',
+199 silly pickManifestFromRegistryMetadata   '1.0.1',
+199 silly pickManifestFromRegistryMetadata   '1.0.0' ]
+200 silly resolveWithNewModule xtend@4.0.1 checking installable status
+201 silly cache add args [ 'xtend@^4.0.0', null ]
+202 verbose cache add spec xtend@^4.0.0
+203 silly cache add parsed spec Result {
+203 silly cache add   raw: 'xtend@^4.0.0',
+203 silly cache add   scope: null,
+203 silly cache add   escapedName: 'xtend',
+203 silly cache add   name: 'xtend',
+203 silly cache add   rawSpec: '^4.0.0',
+203 silly cache add   spec: '>=4.0.0 <5.0.0',
+203 silly cache add   type: 'range' }
+204 silly addNamed xtend@>=4.0.0 <5.0.0
+205 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for xtend
+206 silly addNameRange { name: 'xtend', range: '>=4.0.0 <5.0.0', hasData: false }
+207 silly mapToRegistry name xtend
+208 silly mapToRegistry using default registry
+209 silly mapToRegistry registry https://registry.npm.taobao.org/
+210 silly mapToRegistry data Result {
+210 silly mapToRegistry   raw: 'xtend',
+210 silly mapToRegistry   scope: null,
+210 silly mapToRegistry   escapedName: 'xtend',
+210 silly mapToRegistry   name: 'xtend',
+210 silly mapToRegistry   rawSpec: '',
+210 silly mapToRegistry   spec: 'latest',
+210 silly mapToRegistry   type: 'tag' }
+211 silly mapToRegistry uri https://registry.npm.taobao.org/xtend
+212 verbose addNameRange registry:https://registry.npm.taobao.org/xtend not in flight; fetching
+213 silly pickManifestFromRegistryMetadata spec >=1.5.2 <2.0.0 tag latest versions [ '1.6.2',
+213 silly pickManifestFromRegistryMetadata   '1.6.1',
+213 silly pickManifestFromRegistryMetadata   '1.3.2',
+213 silly pickManifestFromRegistryMetadata   '1.4.11',
+213 silly pickManifestFromRegistryMetadata   '1.6.0',
+213 silly pickManifestFromRegistryMetadata   '1.5.2',
+213 silly pickManifestFromRegistryMetadata   '1.5.1',
+213 silly pickManifestFromRegistryMetadata   '1.5.0',
+213 silly pickManifestFromRegistryMetadata   '1.4.10',
+213 silly pickManifestFromRegistryMetadata   '1.4.8',
+213 silly pickManifestFromRegistryMetadata   '1.4.7',
+213 silly pickManifestFromRegistryMetadata   '1.4.6',
+213 silly pickManifestFromRegistryMetadata   '1.4.5',
+213 silly pickManifestFromRegistryMetadata   '1.4.4',
+213 silly pickManifestFromRegistryMetadata   '1.4.3',
+213 silly pickManifestFromRegistryMetadata   '1.4.2',
+213 silly pickManifestFromRegistryMetadata   '1.4.1',
+213 silly pickManifestFromRegistryMetadata   '1.4.0',
+213 silly pickManifestFromRegistryMetadata   '1.3.1',
+213 silly pickManifestFromRegistryMetadata   '1.3.0',
+213 silly pickManifestFromRegistryMetadata   '1.2.1',
+213 silly pickManifestFromRegistryMetadata   '1.2.0',
+213 silly pickManifestFromRegistryMetadata   '1.1.0',
+213 silly pickManifestFromRegistryMetadata   '1.0.1',
+213 silly pickManifestFromRegistryMetadata   '1.0.0',
+213 silly pickManifestFromRegistryMetadata   '0.1.1',
+213 silly pickManifestFromRegistryMetadata   '0.1.0',
+213 silly pickManifestFromRegistryMetadata   '0.0.9',
+213 silly pickManifestFromRegistryMetadata   '0.0.8',
+213 silly pickManifestFromRegistryMetadata   '0.0.7',
+213 silly pickManifestFromRegistryMetadata   '0.0.6',
+213 silly pickManifestFromRegistryMetadata   '0.0.5',
+213 silly pickManifestFromRegistryMetadata   '0.0.4',
+213 silly pickManifestFromRegistryMetadata   '0.0.3',
+213 silly pickManifestFromRegistryMetadata   '0.0.2',
+213 silly pickManifestFromRegistryMetadata   '0.0.1' ]
+214 silly resolveWithNewModule concat-stream@1.6.2 checking installable status
+215 silly cache add args [ 'concat-stream@^1.5.2', null ]
+216 verbose cache add spec concat-stream@^1.5.2
+217 silly cache add parsed spec Result {
+217 silly cache add   raw: 'concat-stream@^1.5.2',
+217 silly cache add   scope: null,
+217 silly cache add   escapedName: 'concat-stream',
+217 silly cache add   name: 'concat-stream',
+217 silly cache add   rawSpec: '^1.5.2',
+217 silly cache add   spec: '>=1.5.2 <2.0.0',
+217 silly cache add   type: 'range' }
+218 silly addNamed concat-stream@>=1.5.2 <2.0.0
+219 verbose addNamed ">=1.5.2 <2.0.0" is a valid semver range for concat-stream
+220 silly addNameRange { name: 'concat-stream',
+220 silly addNameRange   range: '>=1.5.2 <2.0.0',
+220 silly addNameRange   hasData: false }
+221 silly mapToRegistry name concat-stream
+222 silly mapToRegistry using default registry
+223 silly mapToRegistry registry https://registry.npm.taobao.org/
+224 silly mapToRegistry data Result {
+224 silly mapToRegistry   raw: 'concat-stream',
+224 silly mapToRegistry   scope: null,
+224 silly mapToRegistry   escapedName: 'concat-stream',
+224 silly mapToRegistry   name: 'concat-stream',
+224 silly mapToRegistry   rawSpec: '',
+224 silly mapToRegistry   spec: 'latest',
+224 silly mapToRegistry   type: 'tag' }
+225 silly mapToRegistry uri https://registry.npm.taobao.org/concat-stream
+226 verbose addNameRange registry:https://registry.npm.taobao.org/concat-stream not in flight; fetching
+227 verbose request uri https://registry.npm.taobao.org/xtend
+228 verbose request no auth needed
+229 info attempt registry request try #1 at 16:07:09
+230 verbose etag "59ad-piKC/WdR9pa1dSOjFE3ahYeU1eo"
+231 http request GET https://registry.npm.taobao.org/xtend
+232 verbose request uri https://registry.npm.taobao.org/concat-stream
+233 verbose request no auth needed
+234 info attempt registry request try #1 at 16:07:09
+235 verbose etag "dc1c-zUn4d59QqvBkmOMs8SO7VAVwHhI"
+236 http request GET https://registry.npm.taobao.org/concat-stream
+237 http 304 https://registry.npm.taobao.org/busboy
+238 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+238 verbose headers   connection: 'keep-alive',
+238 verbose headers   'x-current-requests': '1',
+238 verbose headers   vary: 'Origin',
+238 verbose headers   etag: '"c823-gnza9TL+aN0Ne4Z4xxAldDRszOU"',
+238 verbose headers   'x-readtime': '25' }
+239 silly get cb [ 304,
+239 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+239 silly get     connection: 'keep-alive',
+239 silly get     'x-current-requests': '1',
+239 silly get     vary: 'Origin',
+239 silly get     etag: '"c823-gnza9TL+aN0Ne4Z4xxAldDRszOU"',
+239 silly get     'x-readtime': '25' } ]
+240 verbose etag https://registry.npm.taobao.org/busboy from cache
+241 verbose get saving busboy to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\busboy\.cache.json
+242 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+243 silly pickManifestFromRegistryMetadata spec >=0.2.11 <0.3.0 tag latest versions [ '0.2.14',
+243 silly pickManifestFromRegistryMetadata   '0.2.13',
+243 silly pickManifestFromRegistryMetadata   '0.2.12',
+243 silly pickManifestFromRegistryMetadata   '0.2.11',
+243 silly pickManifestFromRegistryMetadata   '0.2.10',
+243 silly pickManifestFromRegistryMetadata   '0.2.9',
+243 silly pickManifestFromRegistryMetadata   '0.2.8',
+243 silly pickManifestFromRegistryMetadata   '0.2.7',
+243 silly pickManifestFromRegistryMetadata   '0.2.6',
+243 silly pickManifestFromRegistryMetadata   '0.2.5',
+243 silly pickManifestFromRegistryMetadata   '0.2.4',
+243 silly pickManifestFromRegistryMetadata   '0.0.14',
+243 silly pickManifestFromRegistryMetadata   '0.2.3',
+243 silly pickManifestFromRegistryMetadata   '0.2.2',
+243 silly pickManifestFromRegistryMetadata   '0.2.1',
+243 silly pickManifestFromRegistryMetadata   '0.2.0',
+243 silly pickManifestFromRegistryMetadata   '0.1.1',
+243 silly pickManifestFromRegistryMetadata   '0.1.0',
+243 silly pickManifestFromRegistryMetadata   '0.0.15',
+243 silly pickManifestFromRegistryMetadata   '0.0.13',
+243 silly pickManifestFromRegistryMetadata   '0.0.12',
+243 silly pickManifestFromRegistryMetadata   '0.0.11',
+243 silly pickManifestFromRegistryMetadata   '0.0.10',
+243 silly pickManifestFromRegistryMetadata   '0.0.9',
+243 silly pickManifestFromRegistryMetadata   '0.0.8',
+243 silly pickManifestFromRegistryMetadata   '0.0.7',
+243 silly pickManifestFromRegistryMetadata   '0.0.6',
+243 silly pickManifestFromRegistryMetadata   '0.0.5',
+243 silly pickManifestFromRegistryMetadata   '0.0.4',
+243 silly pickManifestFromRegistryMetadata   '0.0.3',
+243 silly pickManifestFromRegistryMetadata   '0.0.2',
+243 silly pickManifestFromRegistryMetadata   '0.0.1' ]
+244 silly resolveWithNewModule busboy@0.2.14 checking installable status
+245 silly cache add args [ 'busboy@^0.2.11', null ]
+246 verbose cache add spec busboy@^0.2.11
+247 silly cache add parsed spec Result {
+247 silly cache add   raw: 'busboy@^0.2.11',
+247 silly cache add   scope: null,
+247 silly cache add   escapedName: 'busboy',
+247 silly cache add   name: 'busboy',
+247 silly cache add   rawSpec: '^0.2.11',
+247 silly cache add   spec: '>=0.2.11 <0.3.0',
+247 silly cache add   type: 'range' }
+248 silly addNamed busboy@>=0.2.11 <0.3.0
+249 verbose addNamed ">=0.2.11 <0.3.0" is a valid semver range for busboy
+250 silly addNameRange { name: 'busboy', range: '>=0.2.11 <0.3.0', hasData: false }
+251 silly mapToRegistry name busboy
+252 silly mapToRegistry using default registry
+253 silly mapToRegistry registry https://registry.npm.taobao.org/
+254 silly mapToRegistry data Result {
+254 silly mapToRegistry   raw: 'busboy',
+254 silly mapToRegistry   scope: null,
+254 silly mapToRegistry   escapedName: 'busboy',
+254 silly mapToRegistry   name: 'busboy',
+254 silly mapToRegistry   rawSpec: '',
+254 silly mapToRegistry   spec: 'latest',
+254 silly mapToRegistry   type: 'tag' }
+255 silly mapToRegistry uri https://registry.npm.taobao.org/busboy
+256 verbose addNameRange registry:https://registry.npm.taobao.org/busboy not in flight; fetching
+257 verbose request uri https://registry.npm.taobao.org/busboy
+258 verbose request no auth needed
+259 info attempt registry request try #1 at 16:07:09
+260 verbose etag "c823-gnza9TL+aN0Ne4Z4xxAldDRszOU"
+261 http request GET https://registry.npm.taobao.org/busboy
+262 http 304 https://registry.npm.taobao.org/object-assign
+263 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+263 verbose headers   connection: 'keep-alive',
+263 verbose headers   'x-current-requests': '1',
+263 verbose headers   vary: 'Origin',
+263 verbose headers   etag: '"6c0e-G3DTBPfz5mO0a4C/LeCV42iM2cU"',
+263 verbose headers   'x-readtime': '17' }
+264 silly get cb [ 304,
+264 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+264 silly get     connection: 'keep-alive',
+264 silly get     'x-current-requests': '1',
+264 silly get     vary: 'Origin',
+264 silly get     etag: '"6c0e-G3DTBPfz5mO0a4C/LeCV42iM2cU"',
+264 silly get     'x-readtime': '17' } ]
+265 verbose etag https://registry.npm.taobao.org/object-assign from cache
+266 verbose get saving object-assign to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\object-assign\.cache.json
+267 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+268 http 304 https://registry.npm.taobao.org/xtend
+269 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+269 verbose headers   connection: 'keep-alive',
+269 verbose headers   'x-current-requests': '1',
+269 verbose headers   vary: 'Origin',
+269 verbose headers   etag: '"59ad-piKC/WdR9pa1dSOjFE3ahYeU1eo"',
+269 verbose headers   'x-readtime': '14' }
+270 silly get cb [ 304,
+270 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+270 silly get     connection: 'keep-alive',
+270 silly get     'x-current-requests': '1',
+270 silly get     vary: 'Origin',
+270 silly get     etag: '"59ad-piKC/WdR9pa1dSOjFE3ahYeU1eo"',
+270 silly get     'x-readtime': '14' } ]
+271 verbose etag https://registry.npm.taobao.org/xtend from cache
+272 verbose get saving xtend to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\xtend\.cache.json
+273 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+274 silly addNameRange number 2 { name: 'object-assign', range: '>=3.0.0 <4.0.0', hasData: true }
+275 silly addNameRange versions [ 'object-assign',
+275 silly addNameRange   [ '4.1.1',
+275 silly addNameRange     '4.1.0',
+275 silly addNameRange     '4.0.1',
+275 silly addNameRange     '4.0.0',
+275 silly addNameRange     '2.1.1',
+275 silly addNameRange     '3.0.0',
+275 silly addNameRange     '2.0.0',
+275 silly addNameRange     '1.0.0',
+275 silly addNameRange     '0.4.0',
+275 silly addNameRange     '0.3.1',
+275 silly addNameRange     '0.3.0',
+275 silly addNameRange     '0.2.2',
+275 silly addNameRange     '0.2.1',
+275 silly addNameRange     '0.2.0',
+275 silly addNameRange     '0.1.2',
+275 silly addNameRange     '0.1.1',
+275 silly addNameRange     '0.1.0' ] ]
+276 silly pickManifestFromRegistryMetadata spec >=3.0.0 <4.0.0 tag latest versions [ '4.1.1',
+276 silly pickManifestFromRegistryMetadata   '4.1.0',
+276 silly pickManifestFromRegistryMetadata   '4.0.1',
+276 silly pickManifestFromRegistryMetadata   '4.0.0',
+276 silly pickManifestFromRegistryMetadata   '2.1.1',
+276 silly pickManifestFromRegistryMetadata   '3.0.0',
+276 silly pickManifestFromRegistryMetadata   '2.0.0',
+276 silly pickManifestFromRegistryMetadata   '1.0.0',
+276 silly pickManifestFromRegistryMetadata   '0.4.0',
+276 silly pickManifestFromRegistryMetadata   '0.3.1',
+276 silly pickManifestFromRegistryMetadata   '0.3.0',
+276 silly pickManifestFromRegistryMetadata   '0.2.2',
+276 silly pickManifestFromRegistryMetadata   '0.2.1',
+276 silly pickManifestFromRegistryMetadata   '0.2.0',
+276 silly pickManifestFromRegistryMetadata   '0.1.2',
+276 silly pickManifestFromRegistryMetadata   '0.1.1',
+276 silly pickManifestFromRegistryMetadata   '0.1.0' ]
+277 silly addNamed object-assign@3.0.0
+278 verbose addNamed "3.0.0" is a plain semver version for object-assign
+279 silly addNameRange number 2 { name: 'xtend', range: '>=4.0.0 <5.0.0', hasData: true }
+280 silly addNameRange versions [ 'xtend',
+280 silly addNameRange   [ '4.0.1',
+280 silly addNameRange     '4.0.0',
+280 silly addNameRange     '3.0.0',
+280 silly addNameRange     '2.2.0',
+280 silly addNameRange     '2.1.2',
+280 silly addNameRange     '2.1.1',
+280 silly addNameRange     '2.0.6',
+280 silly addNameRange     '2.0.5',
+280 silly addNameRange     '2.0.4',
+280 silly addNameRange     '2.0.3',
+280 silly addNameRange     '2.0.2',
+280 silly addNameRange     '2.0.1',
+280 silly addNameRange     '1.0.3',
+280 silly addNameRange     '1.0.2',
+280 silly addNameRange     '1.0.1',
+280 silly addNameRange     '1.0.0' ] ]
+281 silly pickManifestFromRegistryMetadata spec >=4.0.0 <5.0.0 tag latest versions [ '4.0.1',
+281 silly pickManifestFromRegistryMetadata   '4.0.0',
+281 silly pickManifestFromRegistryMetadata   '3.0.0',
+281 silly pickManifestFromRegistryMetadata   '2.2.0',
+281 silly pickManifestFromRegistryMetadata   '2.1.2',
+281 silly pickManifestFromRegistryMetadata   '2.1.1',
+281 silly pickManifestFromRegistryMetadata   '2.0.6',
+281 silly pickManifestFromRegistryMetadata   '2.0.5',
+281 silly pickManifestFromRegistryMetadata   '2.0.4',
+281 silly pickManifestFromRegistryMetadata   '2.0.3',
+281 silly pickManifestFromRegistryMetadata   '2.0.2',
+281 silly pickManifestFromRegistryMetadata   '2.0.1',
+281 silly pickManifestFromRegistryMetadata   '1.0.3',
+281 silly pickManifestFromRegistryMetadata   '1.0.2',
+281 silly pickManifestFromRegistryMetadata   '1.0.1',
+281 silly pickManifestFromRegistryMetadata   '1.0.0' ]
+282 silly addNamed xtend@latest
+283 verbose addNamed "latest" is being treated as a dist-tag for xtend
+284 info addNameTag [ 'xtend', 'latest' ]
+285 silly mapToRegistry name xtend
+286 silly mapToRegistry using default registry
+287 silly mapToRegistry registry https://registry.npm.taobao.org/
+288 silly mapToRegistry data Result {
+288 silly mapToRegistry   raw: 'xtend',
+288 silly mapToRegistry   scope: null,
+288 silly mapToRegistry   escapedName: 'xtend',
+288 silly mapToRegistry   name: 'xtend',
+288 silly mapToRegistry   rawSpec: '',
+288 silly mapToRegistry   spec: 'latest',
+288 silly mapToRegistry   type: 'tag' }
+289 silly mapToRegistry uri https://registry.npm.taobao.org/xtend
+290 verbose addNameTag registry:https://registry.npm.taobao.org/xtend already in flight; waiting
+291 silly addNameTag next cb for xtend with tag latest
+292 silly addNamed xtend@4.0.1
+293 verbose addNamed "4.0.1" is a plain semver version for xtend
+294 http 304 https://registry.npm.taobao.org/concat-stream
+295 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+295 verbose headers   connection: 'keep-alive',
+295 verbose headers   'x-current-requests': '1',
+295 verbose headers   vary: 'Origin',
+295 verbose headers   etag: '"dc1c-zUn4d59QqvBkmOMs8SO7VAVwHhI"',
+295 verbose headers   'x-readtime': '19',
+295 verbose headers   via: 'npmtaobao20' }
+296 silly get cb [ 304,
+296 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+296 silly get     connection: 'keep-alive',
+296 silly get     'x-current-requests': '1',
+296 silly get     vary: 'Origin',
+296 silly get     etag: '"dc1c-zUn4d59QqvBkmOMs8SO7VAVwHhI"',
+296 silly get     'x-readtime': '19',
+296 silly get     via: 'npmtaobao20' } ]
+297 verbose etag https://registry.npm.taobao.org/concat-stream from cache
+298 verbose get saving concat-stream to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\concat-stream\.cache.json
+299 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+300 silly cache afterAdd object-assign@3.0.0
+301 verbose afterAdd C:\Program Files\nodejs\node_cache\object-assign\3.0.0\package\package.json not in flight; writing
+302 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+303 silly cache afterAdd xtend@4.0.1
+304 verbose afterAdd C:\Program Files\nodejs\node_cache\xtend\4.0.1\package\package.json not in flight; writing
+305 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+306 silly addNameRange number 2 { name: 'concat-stream', range: '>=1.5.2 <2.0.0', hasData: true }
+307 silly addNameRange versions [ 'concat-stream',
+307 silly addNameRange   [ '1.6.2',
+307 silly addNameRange     '1.6.1',
+307 silly addNameRange     '1.3.2',
+307 silly addNameRange     '1.4.11',
+307 silly addNameRange     '1.6.0',
+307 silly addNameRange     '1.5.2',
+307 silly addNameRange     '1.5.1',
+307 silly addNameRange     '1.5.0',
+307 silly addNameRange     '1.4.10',
+307 silly addNameRange     '1.4.8',
+307 silly addNameRange     '1.4.7',
+307 silly addNameRange     '1.4.6',
+307 silly addNameRange     '1.4.5',
+307 silly addNameRange     '1.4.4',
+307 silly addNameRange     '1.4.3',
+307 silly addNameRange     '1.4.2',
+307 silly addNameRange     '1.4.1',
+307 silly addNameRange     '1.4.0',
+307 silly addNameRange     '1.3.1',
+307 silly addNameRange     '1.3.0',
+307 silly addNameRange     '1.2.1',
+307 silly addNameRange     '1.2.0',
+307 silly addNameRange     '1.1.0',
+307 silly addNameRange     '1.0.1',
+307 silly addNameRange     '1.0.0',
+307 silly addNameRange     '0.1.1',
+307 silly addNameRange     '0.1.0',
+307 silly addNameRange     '0.0.9',
+307 silly addNameRange     '0.0.8',
+307 silly addNameRange     '0.0.7',
+307 silly addNameRange     '0.0.6',
+307 silly addNameRange     '0.0.5',
+307 silly addNameRange     '0.0.4',
+307 silly addNameRange     '0.0.3',
+307 silly addNameRange     '0.0.2',
+307 silly addNameRange     '0.0.1' ] ]
+308 silly pickManifestFromRegistryMetadata spec >=1.5.2 <2.0.0 tag latest versions [ '1.6.2',
+308 silly pickManifestFromRegistryMetadata   '1.6.1',
+308 silly pickManifestFromRegistryMetadata   '1.3.2',
+308 silly pickManifestFromRegistryMetadata   '1.4.11',
+308 silly pickManifestFromRegistryMetadata   '1.6.0',
+308 silly pickManifestFromRegistryMetadata   '1.5.2',
+308 silly pickManifestFromRegistryMetadata   '1.5.1',
+308 silly pickManifestFromRegistryMetadata   '1.5.0',
+308 silly pickManifestFromRegistryMetadata   '1.4.10',
+308 silly pickManifestFromRegistryMetadata   '1.4.8',
+308 silly pickManifestFromRegistryMetadata   '1.4.7',
+308 silly pickManifestFromRegistryMetadata   '1.4.6',
+308 silly pickManifestFromRegistryMetadata   '1.4.5',
+308 silly pickManifestFromRegistryMetadata   '1.4.4',
+308 silly pickManifestFromRegistryMetadata   '1.4.3',
+308 silly pickManifestFromRegistryMetadata   '1.4.2',
+308 silly pickManifestFromRegistryMetadata   '1.4.1',
+308 silly pickManifestFromRegistryMetadata   '1.4.0',
+308 silly pickManifestFromRegistryMetadata   '1.3.1',
+308 silly pickManifestFromRegistryMetadata   '1.3.0',
+308 silly pickManifestFromRegistryMetadata   '1.2.1',
+308 silly pickManifestFromRegistryMetadata   '1.2.0',
+308 silly pickManifestFromRegistryMetadata   '1.1.0',
+308 silly pickManifestFromRegistryMetadata   '1.0.1',
+308 silly pickManifestFromRegistryMetadata   '1.0.0',
+308 silly pickManifestFromRegistryMetadata   '0.1.1',
+308 silly pickManifestFromRegistryMetadata   '0.1.0',
+308 silly pickManifestFromRegistryMetadata   '0.0.9',
+308 silly pickManifestFromRegistryMetadata   '0.0.8',
+308 silly pickManifestFromRegistryMetadata   '0.0.7',
+308 silly pickManifestFromRegistryMetadata   '0.0.6',
+308 silly pickManifestFromRegistryMetadata   '0.0.5',
+308 silly pickManifestFromRegistryMetadata   '0.0.4',
+308 silly pickManifestFromRegistryMetadata   '0.0.3',
+308 silly pickManifestFromRegistryMetadata   '0.0.2',
+308 silly pickManifestFromRegistryMetadata   '0.0.1' ]
+309 silly addNamed concat-stream@latest
+310 verbose addNamed "latest" is being treated as a dist-tag for concat-stream
+311 info addNameTag [ 'concat-stream', 'latest' ]
+312 silly mapToRegistry name concat-stream
+313 silly mapToRegistry using default registry
+314 silly mapToRegistry registry https://registry.npm.taobao.org/
+315 silly mapToRegistry data Result {
+315 silly mapToRegistry   raw: 'concat-stream',
+315 silly mapToRegistry   scope: null,
+315 silly mapToRegistry   escapedName: 'concat-stream',
+315 silly mapToRegistry   name: 'concat-stream',
+315 silly mapToRegistry   rawSpec: '',
+315 silly mapToRegistry   spec: 'latest',
+315 silly mapToRegistry   type: 'tag' }
+316 silly mapToRegistry uri https://registry.npm.taobao.org/concat-stream
+317 verbose addNameTag registry:https://registry.npm.taobao.org/concat-stream already in flight; waiting
+318 silly addNameTag next cb for concat-stream with tag latest
+319 silly addNamed concat-stream@1.6.2
+320 verbose addNamed "1.6.2" is a plain semver version for concat-stream
+321 silly cache afterAdd concat-stream@1.6.2
+322 verbose afterAdd C:\Program Files\nodejs\node_cache\concat-stream\1.6.2\package\package.json not in flight; writing
+323 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+324 http 304 https://registry.npm.taobao.org/busboy
+325 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+325 verbose headers   connection: 'keep-alive',
+325 verbose headers   'x-current-requests': '1',
+325 verbose headers   vary: 'Origin',
+325 verbose headers   etag: '"c823-gnza9TL+aN0Ne4Z4xxAldDRszOU"',
+325 verbose headers   'x-readtime': '22' }
+326 silly get cb [ 304,
+326 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+326 silly get     connection: 'keep-alive',
+326 silly get     'x-current-requests': '1',
+326 silly get     vary: 'Origin',
+326 silly get     etag: '"c823-gnza9TL+aN0Ne4Z4xxAldDRszOU"',
+326 silly get     'x-readtime': '22' } ]
+327 verbose etag https://registry.npm.taobao.org/busboy from cache
+328 verbose get saving busboy to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\busboy\.cache.json
+329 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+330 silly addNameRange number 2 { name: 'busboy', range: '>=0.2.11 <0.3.0', hasData: true }
+331 silly addNameRange versions [ 'busboy',
+331 silly addNameRange   [ '0.2.14',
+331 silly addNameRange     '0.2.13',
+331 silly addNameRange     '0.2.12',
+331 silly addNameRange     '0.2.11',
+331 silly addNameRange     '0.2.10',
+331 silly addNameRange     '0.2.9',
+331 silly addNameRange     '0.2.8',
+331 silly addNameRange     '0.2.7',
+331 silly addNameRange     '0.2.6',
+331 silly addNameRange     '0.2.5',
+331 silly addNameRange     '0.2.4',
+331 silly addNameRange     '0.0.14',
+331 silly addNameRange     '0.2.3',
+331 silly addNameRange     '0.2.2',
+331 silly addNameRange     '0.2.1',
+331 silly addNameRange     '0.2.0',
+331 silly addNameRange     '0.1.1',
+331 silly addNameRange     '0.1.0',
+331 silly addNameRange     '0.0.15',
+331 silly addNameRange     '0.0.13',
+331 silly addNameRange     '0.0.12',
+331 silly addNameRange     '0.0.11',
+331 silly addNameRange     '0.0.10',
+331 silly addNameRange     '0.0.9',
+331 silly addNameRange     '0.0.8',
+331 silly addNameRange     '0.0.7',
+331 silly addNameRange     '0.0.6',
+331 silly addNameRange     '0.0.5',
+331 silly addNameRange     '0.0.4',
+331 silly addNameRange     '0.0.3',
+331 silly addNameRange     '0.0.2',
+331 silly addNameRange     '0.0.1' ] ]
+332 silly pickManifestFromRegistryMetadata spec >=0.2.11 <0.3.0 tag latest versions [ '0.2.14',
+332 silly pickManifestFromRegistryMetadata   '0.2.13',
+332 silly pickManifestFromRegistryMetadata   '0.2.12',
+332 silly pickManifestFromRegistryMetadata   '0.2.11',
+332 silly pickManifestFromRegistryMetadata   '0.2.10',
+332 silly pickManifestFromRegistryMetadata   '0.2.9',
+332 silly pickManifestFromRegistryMetadata   '0.2.8',
+332 silly pickManifestFromRegistryMetadata   '0.2.7',
+332 silly pickManifestFromRegistryMetadata   '0.2.6',
+332 silly pickManifestFromRegistryMetadata   '0.2.5',
+332 silly pickManifestFromRegistryMetadata   '0.2.4',
+332 silly pickManifestFromRegistryMetadata   '0.0.14',
+332 silly pickManifestFromRegistryMetadata   '0.2.3',
+332 silly pickManifestFromRegistryMetadata   '0.2.2',
+332 silly pickManifestFromRegistryMetadata   '0.2.1',
+332 silly pickManifestFromRegistryMetadata   '0.2.0',
+332 silly pickManifestFromRegistryMetadata   '0.1.1',
+332 silly pickManifestFromRegistryMetadata   '0.1.0',
+332 silly pickManifestFromRegistryMetadata   '0.0.15',
+332 silly pickManifestFromRegistryMetadata   '0.0.13',
+332 silly pickManifestFromRegistryMetadata   '0.0.12',
+332 silly pickManifestFromRegistryMetadata   '0.0.11',
+332 silly pickManifestFromRegistryMetadata   '0.0.10',
+332 silly pickManifestFromRegistryMetadata   '0.0.9',
+332 silly pickManifestFromRegistryMetadata   '0.0.8',
+332 silly pickManifestFromRegistryMetadata   '0.0.7',
+332 silly pickManifestFromRegistryMetadata   '0.0.6',
+332 silly pickManifestFromRegistryMetadata   '0.0.5',
+332 silly pickManifestFromRegistryMetadata   '0.0.4',
+332 silly pickManifestFromRegistryMetadata   '0.0.3',
+332 silly pickManifestFromRegistryMetadata   '0.0.2',
+332 silly pickManifestFromRegistryMetadata   '0.0.1' ]
+333 silly addNamed busboy@latest
+334 verbose addNamed "latest" is being treated as a dist-tag for busboy
+335 info addNameTag [ 'busboy', 'latest' ]
+336 silly mapToRegistry name busboy
+337 silly mapToRegistry using default registry
+338 silly mapToRegistry registry https://registry.npm.taobao.org/
+339 silly mapToRegistry data Result {
+339 silly mapToRegistry   raw: 'busboy',
+339 silly mapToRegistry   scope: null,
+339 silly mapToRegistry   escapedName: 'busboy',
+339 silly mapToRegistry   name: 'busboy',
+339 silly mapToRegistry   rawSpec: '',
+339 silly mapToRegistry   spec: 'latest',
+339 silly mapToRegistry   type: 'tag' }
+340 silly mapToRegistry uri https://registry.npm.taobao.org/busboy
+341 verbose addNameTag registry:https://registry.npm.taobao.org/busboy already in flight; waiting
+342 silly addNameTag next cb for busboy with tag latest
+343 silly addNamed busboy@0.2.14
+344 verbose addNamed "0.2.14" is a plain semver version for busboy
+345 silly cache afterAdd busboy@0.2.14
+346 verbose afterAdd C:\Program Files\nodejs\node_cache\busboy\0.2.14\package\package.json not in flight; writing
+347 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+348 silly fetchNamedPackageData dicer
+349 silly mapToRegistry name dicer
+350 silly mapToRegistry using default registry
+351 silly mapToRegistry registry https://registry.npm.taobao.org/
+352 silly mapToRegistry data Result {
+352 silly mapToRegistry   raw: 'dicer',
+352 silly mapToRegistry   scope: null,
+352 silly mapToRegistry   escapedName: 'dicer',
+352 silly mapToRegistry   name: 'dicer',
+352 silly mapToRegistry   rawSpec: '',
+352 silly mapToRegistry   spec: 'latest',
+352 silly mapToRegistry   type: 'tag' }
+353 silly mapToRegistry uri https://registry.npm.taobao.org/dicer
+354 silly fetchNamedPackageData readable-stream
+355 silly mapToRegistry name readable-stream
+356 silly mapToRegistry using default registry
+357 silly mapToRegistry registry https://registry.npm.taobao.org/
+358 silly mapToRegistry data Result {
+358 silly mapToRegistry   raw: 'readable-stream',
+358 silly mapToRegistry   scope: null,
+358 silly mapToRegistry   escapedName: 'readable-stream',
+358 silly mapToRegistry   name: 'readable-stream',
+358 silly mapToRegistry   rawSpec: '',
+358 silly mapToRegistry   spec: 'latest',
+358 silly mapToRegistry   type: 'tag' }
+359 silly mapToRegistry uri https://registry.npm.taobao.org/readable-stream
+360 verbose request uri https://registry.npm.taobao.org/dicer
+361 verbose request no auth needed
+362 info attempt registry request try #1 at 16:07:10
+363 verbose etag "669c-zM6WYQnjBx+gB3H8uhn6Dlc5kWE"
+364 http request GET https://registry.npm.taobao.org/dicer
+365 verbose request uri https://registry.npm.taobao.org/readable-stream
+366 verbose request no auth needed
+367 info attempt registry request try #1 at 16:07:10
+368 verbose etag "25248-k4LG1iFuQynPga051lUcW1Yu0ak"
+369 http request GET https://registry.npm.taobao.org/readable-stream
+370 http 304 https://registry.npm.taobao.org/dicer
+371 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+371 verbose headers   connection: 'keep-alive',
+371 verbose headers   'x-current-requests': '1',
+371 verbose headers   vary: 'Origin',
+371 verbose headers   etag: '"669c-zM6WYQnjBx+gB3H8uhn6Dlc5kWE"',
+371 verbose headers   'x-readtime': '13' }
+372 silly get cb [ 304,
+372 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+372 silly get     connection: 'keep-alive',
+372 silly get     'x-current-requests': '1',
+372 silly get     vary: 'Origin',
+372 silly get     etag: '"669c-zM6WYQnjBx+gB3H8uhn6Dlc5kWE"',
+372 silly get     'x-readtime': '13' } ]
+373 verbose etag https://registry.npm.taobao.org/dicer from cache
+374 verbose get saving dicer to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\dicer\.cache.json
+375 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+376 silly pickManifestFromRegistryMetadata spec 0.2.5 tag latest versions [ '0.2.5',
+376 silly pickManifestFromRegistryMetadata   '0.2.4',
+376 silly pickManifestFromRegistryMetadata   '0.2.3',
+376 silly pickManifestFromRegistryMetadata   '0.2.2',
+376 silly pickManifestFromRegistryMetadata   '0.2.1',
+376 silly pickManifestFromRegistryMetadata   '0.2.0',
+376 silly pickManifestFromRegistryMetadata   '0.1.6',
+376 silly pickManifestFromRegistryMetadata   '0.1.5',
+376 silly pickManifestFromRegistryMetadata   '0.1.4',
+376 silly pickManifestFromRegistryMetadata   '0.1.3',
+376 silly pickManifestFromRegistryMetadata   '0.1.2',
+376 silly pickManifestFromRegistryMetadata   '0.1.1',
+376 silly pickManifestFromRegistryMetadata   '0.1.0',
+376 silly pickManifestFromRegistryMetadata   '0.0.5',
+376 silly pickManifestFromRegistryMetadata   '0.0.4',
+376 silly pickManifestFromRegistryMetadata   '0.0.3',
+376 silly pickManifestFromRegistryMetadata   '0.0.2',
+376 silly pickManifestFromRegistryMetadata   '0.0.1' ]
+377 silly resolveWithNewModule dicer@0.2.5 checking installable status
+378 silly cache add args [ 'dicer@0.2.5', null ]
+379 verbose cache add spec dicer@0.2.5
+380 silly cache add parsed spec Result {
+380 silly cache add   raw: 'dicer@0.2.5',
+380 silly cache add   scope: null,
+380 silly cache add   escapedName: 'dicer',
+380 silly cache add   name: 'dicer',
+380 silly cache add   rawSpec: '0.2.5',
+380 silly cache add   spec: '0.2.5',
+380 silly cache add   type: 'version' }
+381 silly addNamed dicer@0.2.5
+382 verbose addNamed "0.2.5" is a plain semver version for dicer
+383 silly mapToRegistry name dicer
+384 silly mapToRegistry using default registry
+385 silly mapToRegistry registry https://registry.npm.taobao.org/
+386 silly mapToRegistry data Result {
+386 silly mapToRegistry   raw: 'dicer',
+386 silly mapToRegistry   scope: null,
+386 silly mapToRegistry   escapedName: 'dicer',
+386 silly mapToRegistry   name: 'dicer',
+386 silly mapToRegistry   rawSpec: '',
+386 silly mapToRegistry   spec: 'latest',
+386 silly mapToRegistry   type: 'tag' }
+387 silly mapToRegistry uri https://registry.npm.taobao.org/dicer
+388 verbose addNameVersion registry:https://registry.npm.taobao.org/dicer not in flight; fetching
+389 http 304 https://registry.npm.taobao.org/readable-stream
+390 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+390 verbose headers   connection: 'keep-alive',
+390 verbose headers   'x-current-requests': '1',
+390 verbose headers   vary: 'Origin',
+390 verbose headers   etag: '"25248-k4LG1iFuQynPga051lUcW1Yu0ak"',
+390 verbose headers   'x-readtime': '53' }
+391 silly get cb [ 304,
+391 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+391 silly get     connection: 'keep-alive',
+391 silly get     'x-current-requests': '1',
+391 silly get     vary: 'Origin',
+391 silly get     etag: '"25248-k4LG1iFuQynPga051lUcW1Yu0ak"',
+391 silly get     'x-readtime': '53' } ]
+392 verbose etag https://registry.npm.taobao.org/readable-stream from cache
+393 verbose get saving readable-stream to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\readable-stream\.cache.json
+394 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+395 verbose request uri https://registry.npm.taobao.org/dicer
+396 verbose request no auth needed
+397 info attempt registry request try #1 at 16:07:10
+398 verbose etag "669c-zM6WYQnjBx+gB3H8uhn6Dlc5kWE"
+399 http request GET https://registry.npm.taobao.org/dicer
+400 silly pickManifestFromRegistryMetadata spec >=1.1.0 <1.2.0 tag latest versions [ '3.0.2',
+400 silly pickManifestFromRegistryMetadata   '3.0.1',
+400 silly pickManifestFromRegistryMetadata   '3.0.0',
+400 silly pickManifestFromRegistryMetadata   '3.0.0-rc.3',
+400 silly pickManifestFromRegistryMetadata   '3.0.0-rc.2',
+400 silly pickManifestFromRegistryMetadata   '3.0.0-rc.1',
+400 silly pickManifestFromRegistryMetadata   '2.3.6',
+400 silly pickManifestFromRegistryMetadata   '2.3.5',
+400 silly pickManifestFromRegistryMetadata   '2.3.4',
+400 silly pickManifestFromRegistryMetadata   '2.3.3',
+400 silly pickManifestFromRegistryMetadata   '2.3.2',
+400 silly pickManifestFromRegistryMetadata   '2.3.1',
+400 silly pickManifestFromRegistryMetadata   '2.3.0',
+400 silly pickManifestFromRegistryMetadata   '2.2.11',
+400 silly pickManifestFromRegistryMetadata   '2.2.10',
+400 silly pickManifestFromRegistryMetadata   '2.2.9',
+400 silly pickManifestFromRegistryMetadata   '2.2.8',
+400 silly pickManifestFromRegistryMetadata   '2.2.7',
+400 silly pickManifestFromRegistryMetadata   '2.2.6',
+400 silly pickManifestFromRegistryMetadata   '2.2.5',
+400 silly pickManifestFromRegistryMetadata   '2.2.4',
+400 silly pickManifestFromRegistryMetadata   '2.2.3',
+400 silly pickManifestFromRegistryMetadata   '2.2.2',
+400 silly pickManifestFromRegistryMetadata   '2.2.1',
+400 silly pickManifestFromRegistryMetadata   '2.2.0',
+400 silly pickManifestFromRegistryMetadata   '2.1.5',
+400 silly pickManifestFromRegistryMetadata   '2.1.4',
+400 silly pickManifestFromRegistryMetadata   '2.1.3',
+400 silly pickManifestFromRegistryMetadata   '2.1.2',
+400 silly pickManifestFromRegistryMetadata   '2.1.1',
+400 silly pickManifestFromRegistryMetadata   '2.1.0',
+400 silly pickManifestFromRegistryMetadata   '1.1.14',
+400 silly pickManifestFromRegistryMetadata   '1.0.34',
+400 silly pickManifestFromRegistryMetadata   '2.0.6',
+400 silly pickManifestFromRegistryMetadata   '2.0.5',
+400 silly pickManifestFromRegistryMetadata   '2.0.4',
+400 silly pickManifestFromRegistryMetadata   '2.0.3',
+400 silly pickManifestFromRegistryMetadata   '2.0.2',
+400 silly pickManifestFromRegistryMetadata   '2.0.1',
+400 silly pickManifestFromRegistryMetadata   '2.0.0',
+400 silly pickManifestFromRegistryMetadata   '1.0.33',
+400 silly pickManifestFromRegistryMetadata   '1.0.33-2',
+400 silly pickManifestFromRegistryMetadata   '1.0.33-1',
+400 silly pickManifestFromRegistryMetadata   '1.0.32-1',
+400 silly pickManifestFromRegistryMetadata   '1.0.32',
+400 silly pickManifestFromRegistryMetadata   '1.1.13',
+400 silly pickManifestFromRegistryMetadata   '1.0.31',
+400 silly pickManifestFromRegistryMetadata   '1.1.13-1',
+400 silly pickManifestFromRegistryMetadata   '1.0.27-1',
+400 silly pickManifestFromRegistryMetadata   '1.1.12-1',
+400 silly pickManifestFromRegistryMetadata   '1.0.26-4',
+400 silly pickManifestFromRegistryMetadata   '1.0.26-3',
+400 silly pickManifestFromRegistryMetadata   '1.1.12',
+400 silly pickManifestFromRegistryMetadata   '1.0.26-2',
+400 silly pickManifestFromRegistryMetadata   '1.1.11-1',
+400 silly pickManifestFromRegistryMetadata   '1.0.26-1',
+400 silly pickManifestFromRegistryMetadata   '1.0.26',
+400 silly pickManifestFromRegistryMetadata   '1.1.11',
+400 silly pickManifestFromRegistryMetadata   '1.0.25-1',
+400 silly pickManifestFromRegistryMetadata   '1.0.25',
+400 silly pickManifestFromRegistryMetadata   '1.1.10',
+400 silly pickManifestFromRegistryMetadata   '1.0.24',
+400 silly pickManifestFromRegistryMetadata   '1.1.9',
+400 silly pickManifestFromRegistryMetadata   '1.1.8',
+400 silly pickManifestFromRegistryMetadata   '1.1.7',
+400 silly pickManifestFromRegistryMetadata   '1.0.17',
+400 silly pickManifestFromRegistryMetadata   '1.0.15',
+400 silly pickManifestFromRegistryMetadata   '1.0.2',
+400 silly pickManifestFromRegistryMetadata   '1.0.1',
+400 silly pickManifestFromRegistryMetadata   '1.0.0',
+400 silly pickManifestFromRegistryMetadata   '0.3.1',
+400 silly pickManifestFromRegistryMetadata   '0.3.0',
+400 silly pickManifestFromRegistryMetadata   '0.2.0',
+400 silly pickManifestFromRegistryMetadata   '0.1.0',
+400 silly pickManifestFromRegistryMetadata   '0.0.4',
+400 silly pickManifestFromRegistryMetadata   '0.0.3',
+400 silly pickManifestFromRegistryMetadata   '0.0.2',
+400 silly pickManifestFromRegistryMetadata   '0.0.1' ]
+401 silly resolveWithNewModule readable-stream@1.1.14 checking installable status
+402 silly cache add args [ 'readable-stream@1.1.x', null ]
+403 verbose cache add spec readable-stream@1.1.x
+404 silly cache add parsed spec Result {
+404 silly cache add   raw: 'readable-stream@1.1.x',
+404 silly cache add   scope: null,
+404 silly cache add   escapedName: 'readable-stream',
+404 silly cache add   name: 'readable-stream',
+404 silly cache add   rawSpec: '1.1.x',
+404 silly cache add   spec: '>=1.1.0 <1.2.0',
+404 silly cache add   type: 'range' }
+405 silly addNamed readable-stream@>=1.1.0 <1.2.0
+406 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for readable-stream
+407 silly addNameRange { name: 'readable-stream',
+407 silly addNameRange   range: '>=1.1.0 <1.2.0',
+407 silly addNameRange   hasData: false }
+408 silly mapToRegistry name readable-stream
+409 silly mapToRegistry using default registry
+410 silly mapToRegistry registry https://registry.npm.taobao.org/
+411 silly mapToRegistry data Result {
+411 silly mapToRegistry   raw: 'readable-stream',
+411 silly mapToRegistry   scope: null,
+411 silly mapToRegistry   escapedName: 'readable-stream',
+411 silly mapToRegistry   name: 'readable-stream',
+411 silly mapToRegistry   rawSpec: '',
+411 silly mapToRegistry   spec: 'latest',
+411 silly mapToRegistry   type: 'tag' }
+412 silly mapToRegistry uri https://registry.npm.taobao.org/readable-stream
+413 verbose addNameRange registry:https://registry.npm.taobao.org/readable-stream not in flight; fetching
+414 verbose request uri https://registry.npm.taobao.org/readable-stream
+415 verbose request no auth needed
+416 info attempt registry request try #1 at 16:07:10
+417 verbose etag "25248-k4LG1iFuQynPga051lUcW1Yu0ak"
+418 http request GET https://registry.npm.taobao.org/readable-stream
+419 http 304 https://registry.npm.taobao.org/dicer
+420 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+420 verbose headers   connection: 'keep-alive',
+420 verbose headers   'x-current-requests': '1',
+420 verbose headers   vary: 'Origin',
+420 verbose headers   etag: '"669c-zM6WYQnjBx+gB3H8uhn6Dlc5kWE"',
+420 verbose headers   'x-readtime': '13' }
+421 silly get cb [ 304,
+421 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+421 silly get     connection: 'keep-alive',
+421 silly get     'x-current-requests': '1',
+421 silly get     vary: 'Origin',
+421 silly get     etag: '"669c-zM6WYQnjBx+gB3H8uhn6Dlc5kWE"',
+421 silly get     'x-readtime': '13' } ]
+422 verbose etag https://registry.npm.taobao.org/dicer from cache
+423 verbose get saving dicer to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\dicer\.cache.json
+424 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+425 silly cache afterAdd dicer@0.2.5
+426 verbose afterAdd C:\Program Files\nodejs\node_cache\dicer\0.2.5\package\package.json not in flight; writing
+427 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+428 http 304 https://registry.npm.taobao.org/readable-stream
+429 verbose headers { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+429 verbose headers   connection: 'keep-alive',
+429 verbose headers   'x-current-requests': '1',
+429 verbose headers   vary: 'Origin',
+429 verbose headers   etag: '"25248-k4LG1iFuQynPga051lUcW1Yu0ak"',
+429 verbose headers   'x-readtime': '46' }
+430 silly get cb [ 304,
+430 silly get   { date: 'Mon, 03 Sep 2018 08:07:09 GMT',
+430 silly get     connection: 'keep-alive',
+430 silly get     'x-current-requests': '1',
+430 silly get     vary: 'Origin',
+430 silly get     etag: '"25248-k4LG1iFuQynPga051lUcW1Yu0ak"',
+430 silly get     'x-readtime': '46' } ]
+431 verbose etag https://registry.npm.taobao.org/readable-stream from cache
+432 verbose get saving readable-stream to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\readable-stream\.cache.json
+433 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+434 silly addNameRange number 2 { name: 'readable-stream',
+434 silly addNameRange   range: '>=1.1.0 <1.2.0',
+434 silly addNameRange   hasData: true }
+435 silly addNameRange versions [ 'readable-stream',
+435 silly addNameRange   [ '3.0.2',
+435 silly addNameRange     '3.0.1',
+435 silly addNameRange     '3.0.0',
+435 silly addNameRange     '3.0.0-rc.3',
+435 silly addNameRange     '3.0.0-rc.2',
+435 silly addNameRange     '3.0.0-rc.1',
+435 silly addNameRange     '2.3.6',
+435 silly addNameRange     '2.3.5',
+435 silly addNameRange     '2.3.4',
+435 silly addNameRange     '2.3.3',
+435 silly addNameRange     '2.3.2',
+435 silly addNameRange     '2.3.1',
+435 silly addNameRange     '2.3.0',
+435 silly addNameRange     '2.2.11',
+435 silly addNameRange     '2.2.10',
+435 silly addNameRange     '2.2.9',
+435 silly addNameRange     '2.2.8',
+435 silly addNameRange     '2.2.7',
+435 silly addNameRange     '2.2.6',
+435 silly addNameRange     '2.2.5',
+435 silly addNameRange     '2.2.4',
+435 silly addNameRange     '2.2.3',
+435 silly addNameRange     '2.2.2',
+435 silly addNameRange     '2.2.1',
+435 silly addNameRange     '2.2.0',
+435 silly addNameRange     '2.1.5',
+435 silly addNameRange     '2.1.4',
+435 silly addNameRange     '2.1.3',
+435 silly addNameRange     '2.1.2',
+435 silly addNameRange     '2.1.1',
+435 silly addNameRange     '2.1.0',
+435 silly addNameRange     '1.1.14',
+435 silly addNameRange     '1.0.34',
+435 silly addNameRange     '2.0.6',
+435 silly addNameRange     '2.0.5',
+435 silly addNameRange     '2.0.4',
+435 silly addNameRange     '2.0.3',
+435 silly addNameRange     '2.0.2',
+435 silly addNameRange     '2.0.1',
+435 silly addNameRange     '2.0.0',
+435 silly addNameRange     '1.0.33',
+435 silly addNameRange     '1.0.33-2',
+435 silly addNameRange     '1.0.33-1',
+435 silly addNameRange     '1.0.32-1',
+435 silly addNameRange     '1.0.32',
+435 silly addNameRange     '1.1.13',
+435 silly addNameRange     '1.0.31',
+435 silly addNameRange     '1.1.13-1',
+435 silly addNameRange     '1.0.27-1',
+435 silly addNameRange     '1.1.12-1',
+435 silly addNameRange     '1.0.26-4',
+435 silly addNameRange     '1.0.26-3',
+435 silly addNameRange     '1.1.12',
+435 silly addNameRange     '1.0.26-2',
+435 silly addNameRange     '1.1.11-1',
+435 silly addNameRange     '1.0.26-1',
+435 silly addNameRange     '1.0.26',
+435 silly addNameRange     '1.1.11',
+435 silly addNameRange     '1.0.25-1',
+435 silly addNameRange     '1.0.25',
+435 silly addNameRange     '1.1.10',
+435 silly addNameRange     '1.0.24',
+435 silly addNameRange     '1.1.9',
+435 silly addNameRange     '1.1.8',
+435 silly addNameRange     '1.1.7',
+435 silly addNameRange     '1.0.17',
+435 silly addNameRange     '1.0.15',
+435 silly addNameRange     '1.0.2',
+435 silly addNameRange     '1.0.1',
+435 silly addNameRange     '1.0.0',
+435 silly addNameRange     '0.3.1',
+435 silly addNameRange     '0.3.0',
+435 silly addNameRange     '0.2.0',
+435 silly addNameRange     '0.1.0',
+435 silly addNameRange     '0.0.4',
+435 silly addNameRange     '0.0.3',
+435 silly addNameRange     '0.0.2',
+435 silly addNameRange     '0.0.1' ] ]
+436 silly pickManifestFromRegistryMetadata spec >=1.1.0 <1.2.0 tag latest versions [ '3.0.2',
+436 silly pickManifestFromRegistryMetadata   '3.0.1',
+436 silly pickManifestFromRegistryMetadata   '3.0.0',
+436 silly pickManifestFromRegistryMetadata   '3.0.0-rc.3',
+436 silly pickManifestFromRegistryMetadata   '3.0.0-rc.2',
+436 silly pickManifestFromRegistryMetadata   '3.0.0-rc.1',
+436 silly pickManifestFromRegistryMetadata   '2.3.6',
+436 silly pickManifestFromRegistryMetadata   '2.3.5',
+436 silly pickManifestFromRegistryMetadata   '2.3.4',
+436 silly pickManifestFromRegistryMetadata   '2.3.3',
+436 silly pickManifestFromRegistryMetadata   '2.3.2',
+436 silly pickManifestFromRegistryMetadata   '2.3.1',
+436 silly pickManifestFromRegistryMetadata   '2.3.0',
+436 silly pickManifestFromRegistryMetadata   '2.2.11',
+436 silly pickManifestFromRegistryMetadata   '2.2.10',
+436 silly pickManifestFromRegistryMetadata   '2.2.9',
+436 silly pickManifestFromRegistryMetadata   '2.2.8',
+436 silly pickManifestFromRegistryMetadata   '2.2.7',
+436 silly pickManifestFromRegistryMetadata   '2.2.6',
+436 silly pickManifestFromRegistryMetadata   '2.2.5',
+436 silly pickManifestFromRegistryMetadata   '2.2.4',
+436 silly pickManifestFromRegistryMetadata   '2.2.3',
+436 silly pickManifestFromRegistryMetadata   '2.2.2',
+436 silly pickManifestFromRegistryMetadata   '2.2.1',
+436 silly pickManifestFromRegistryMetadata   '2.2.0',
+436 silly pickManifestFromRegistryMetadata   '2.1.5',
+436 silly pickManifestFromRegistryMetadata   '2.1.4',
+436 silly pickManifestFromRegistryMetadata   '2.1.3',
+436 silly pickManifestFromRegistryMetadata   '2.1.2',
+436 silly pickManifestFromRegistryMetadata   '2.1.1',
+436 silly pickManifestFromRegistryMetadata   '2.1.0',
+436 silly pickManifestFromRegistryMetadata   '1.1.14',
+436 silly pickManifestFromRegistryMetadata   '1.0.34',
+436 silly pickManifestFromRegistryMetadata   '2.0.6',
+436 silly pickManifestFromRegistryMetadata   '2.0.5',
+436 silly pickManifestFromRegistryMetadata   '2.0.4',
+436 silly pickManifestFromRegistryMetadata   '2.0.3',
+436 silly pickManifestFromRegistryMetadata   '2.0.2',
+436 silly pickManifestFromRegistryMetadata   '2.0.1',
+436 silly pickManifestFromRegistryMetadata   '2.0.0',
+436 silly pickManifestFromRegistryMetadata   '1.0.33',
+436 silly pickManifestFromRegistryMetadata   '1.0.33-2',
+436 silly pickManifestFromRegistryMetadata   '1.0.33-1',
+436 silly pickManifestFromRegistryMetadata   '1.0.32-1',
+436 silly pickManifestFromRegistryMetadata   '1.0.32',
+436 silly pickManifestFromRegistryMetadata   '1.1.13',
+436 silly pickManifestFromRegistryMetadata   '1.0.31',
+436 silly pickManifestFromRegistryMetadata   '1.1.13-1',
+436 silly pickManifestFromRegistryMetadata   '1.0.27-1',
+436 silly pickManifestFromRegistryMetadata   '1.1.12-1',
+436 silly pickManifestFromRegistryMetadata   '1.0.26-4',
+436 silly pickManifestFromRegistryMetadata   '1.0.26-3',
+436 silly pickManifestFromRegistryMetadata   '1.1.12',
+436 silly pickManifestFromRegistryMetadata   '1.0.26-2',
+436 silly pickManifestFromRegistryMetadata   '1.1.11-1',
+436 silly pickManifestFromRegistryMetadata   '1.0.26-1',
+436 silly pickManifestFromRegistryMetadata   '1.0.26',
+436 silly pickManifestFromRegistryMetadata   '1.1.11',
+436 silly pickManifestFromRegistryMetadata   '1.0.25-1',
+436 silly pickManifestFromRegistryMetadata   '1.0.25',
+436 silly pickManifestFromRegistryMetadata   '1.1.10',
+436 silly pickManifestFromRegistryMetadata   '1.0.24',
+436 silly pickManifestFromRegistryMetadata   '1.1.9',
+436 silly pickManifestFromRegistryMetadata   '1.1.8',
+436 silly pickManifestFromRegistryMetadata   '1.1.7',
+436 silly pickManifestFromRegistryMetadata   '1.0.17',
+436 silly pickManifestFromRegistryMetadata   '1.0.15',
+436 silly pickManifestFromRegistryMetadata   '1.0.2',
+436 silly pickManifestFromRegistryMetadata   '1.0.1',
+436 silly pickManifestFromRegistryMetadata   '1.0.0',
+436 silly pickManifestFromRegistryMetadata   '0.3.1',
+436 silly pickManifestFromRegistryMetadata   '0.3.0',
+436 silly pickManifestFromRegistryMetadata   '0.2.0',
+436 silly pickManifestFromRegistryMetadata   '0.1.0',
+436 silly pickManifestFromRegistryMetadata   '0.0.4',
+436 silly pickManifestFromRegistryMetadata   '0.0.3',
+436 silly pickManifestFromRegistryMetadata   '0.0.2',
+436 silly pickManifestFromRegistryMetadata   '0.0.1' ]
+437 silly addNamed readable-stream@1.1.14
+438 verbose addNamed "1.1.14" is a plain semver version for readable-stream
+439 silly cache afterAdd readable-stream@1.1.14
+440 verbose afterAdd C:\Program Files\nodejs\node_cache\readable-stream\1.1.14\package\package.json not in flight; writing
+441 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+442 silly fetchNamedPackageData streamsearch
+443 silly mapToRegistry name streamsearch
+444 silly mapToRegistry using default registry
+445 silly mapToRegistry registry https://registry.npm.taobao.org/
+446 silly mapToRegistry data Result {
+446 silly mapToRegistry   raw: 'streamsearch',
+446 silly mapToRegistry   scope: null,
+446 silly mapToRegistry   escapedName: 'streamsearch',
+446 silly mapToRegistry   name: 'streamsearch',
+446 silly mapToRegistry   rawSpec: '',
+446 silly mapToRegistry   spec: 'latest',
+446 silly mapToRegistry   type: 'tag' }
+447 silly mapToRegistry uri https://registry.npm.taobao.org/streamsearch
+448 verbose request uri https://registry.npm.taobao.org/streamsearch
+449 verbose request no auth needed
+450 info attempt registry request try #1 at 16:07:10
+451 http request GET https://registry.npm.taobao.org/streamsearch
+452 http 200 https://registry.npm.taobao.org/streamsearch
+453 verbose headers { date: 'Mon, 03 Sep 2018 08:07:10 GMT',
+453 verbose headers   'content-type': 'application/json; charset=utf-8',
+453 verbose headers   'transfer-encoding': 'chunked',
+453 verbose headers   connection: 'keep-alive',
+453 verbose headers   'x-current-requests': '1',
+453 verbose headers   vary: 'Origin',
+453 verbose headers   'x-readtime': '12',
+453 verbose headers   'content-encoding': 'gzip' }
+454 silly get cb [ 200,
+454 silly get   { date: 'Mon, 03 Sep 2018 08:07:10 GMT',
+454 silly get     'content-type': 'application/json; charset=utf-8',
+454 silly get     'transfer-encoding': 'chunked',
+454 silly get     connection: 'keep-alive',
+454 silly get     'x-current-requests': '1',
+454 silly get     vary: 'Origin',
+454 silly get     'x-readtime': '12',
+454 silly get     'content-encoding': 'gzip' } ]
+455 verbose get saving streamsearch to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\streamsearch\.cache.json
+456 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+457 silly pickManifestFromRegistryMetadata spec 0.1.2 tag latest versions [ '0.1.2', '0.1.1', '0.1.0', '0.0.2', '0.0.1' ]
+458 silly resolveWithNewModule streamsearch@0.1.2 checking installable status
+459 silly cache add args [ 'streamsearch@0.1.2', null ]
+460 verbose cache add spec streamsearch@0.1.2
+461 silly cache add parsed spec Result {
+461 silly cache add   raw: 'streamsearch@0.1.2',
+461 silly cache add   scope: null,
+461 silly cache add   escapedName: 'streamsearch',
+461 silly cache add   name: 'streamsearch',
+461 silly cache add   rawSpec: '0.1.2',
+461 silly cache add   spec: '0.1.2',
+461 silly cache add   type: 'version' }
+462 silly addNamed streamsearch@0.1.2
+463 verbose addNamed "0.1.2" is a plain semver version for streamsearch
+464 silly mapToRegistry name streamsearch
+465 silly mapToRegistry using default registry
+466 silly mapToRegistry registry https://registry.npm.taobao.org/
+467 silly mapToRegistry data Result {
+467 silly mapToRegistry   raw: 'streamsearch',
+467 silly mapToRegistry   scope: null,
+467 silly mapToRegistry   escapedName: 'streamsearch',
+467 silly mapToRegistry   name: 'streamsearch',
+467 silly mapToRegistry   rawSpec: '',
+467 silly mapToRegistry   spec: 'latest',
+467 silly mapToRegistry   type: 'tag' }
+468 silly mapToRegistry uri https://registry.npm.taobao.org/streamsearch
+469 verbose addNameVersion registry:https://registry.npm.taobao.org/streamsearch not in flight; fetching
+470 verbose request uri https://registry.npm.taobao.org/streamsearch
+471 verbose request no auth needed
+472 info attempt registry request try #1 at 16:07:11
+473 http request GET https://registry.npm.taobao.org/streamsearch
+474 http 200 https://registry.npm.taobao.org/streamsearch
+475 verbose headers { date: 'Mon, 03 Sep 2018 08:07:10 GMT',
+475 verbose headers   'content-type': 'application/json; charset=utf-8',
+475 verbose headers   'content-length': '8505',
+475 verbose headers   connection: 'keep-alive',
+475 verbose headers   'x-current-requests': '1',
+475 verbose headers   vary: 'Origin',
+475 verbose headers   etag: '"2139-rLWqkmLlVw3TmHLChx7KVs9+Law"',
+475 verbose headers   'x-readtime': '61' }
+476 silly get cb [ 200,
+476 silly get   { date: 'Mon, 03 Sep 2018 08:07:10 GMT',
+476 silly get     'content-type': 'application/json; charset=utf-8',
+476 silly get     'content-length': '8505',
+476 silly get     connection: 'keep-alive',
+476 silly get     'x-current-requests': '1',
+476 silly get     vary: 'Origin',
+476 silly get     etag: '"2139-rLWqkmLlVw3TmHLChx7KVs9+Law"',
+476 silly get     'x-readtime': '61' } ]
+477 verbose get saving streamsearch to C:\Program Files\nodejs\node_cache\registry.npm.taobao.org\streamsearch\.cache.json
+478 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+479 silly mapToRegistry name streamsearch
+480 silly mapToRegistry using default registry
+481 silly mapToRegistry registry https://registry.npm.taobao.org/
+482 silly mapToRegistry data Result {
+482 silly mapToRegistry   raw: 'streamsearch',
+482 silly mapToRegistry   scope: null,
+482 silly mapToRegistry   escapedName: 'streamsearch',
+482 silly mapToRegistry   name: 'streamsearch',
+482 silly mapToRegistry   rawSpec: '',
+482 silly mapToRegistry   spec: 'latest',
+482 silly mapToRegistry   type: 'tag' }
+483 silly mapToRegistry uri https://registry.npm.taobao.org/streamsearch
+484 verbose addRemoteTarball https://registry.npm.taobao.org/streamsearch/download/streamsearch-0.1.2.tgz not in flight; adding
+485 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/streamsearch/download/streamsearch-0.1.2.tgz',
+485 verbose addRemoteTarball   '808b9d0e56fc273d809ba57338e929919a1a9f1a' ]
+486 info retry fetch attempt 1 at 16:07:11
+487 info attempt registry request try #1 at 16:07:11
+488 http fetch GET https://registry.npm.taobao.org/streamsearch/download/streamsearch-0.1.2.tgz
+489 http fetch 200 https://registry.npm.taobao.org/streamsearch/download/streamsearch-0.1.2.tgz
+490 silly fetchAndShaCheck shasum 808b9d0e56fc273d809ba57338e929919a1a9f1a
+491 verbose addTmpTarball C:\Users\MI\AppData\Local\Temp\npm-13388-7e8bcfca\registry.npm.taobao.org\streamsearch\download\streamsearch-0.1.2.tgz not in flight; adding
+492 verbose addTmpTarball already have metadata; skipping unpack for streamsearch@0.1.2
+493 verbose correctMkdir C:\Program Files\nodejs\node_cache correctMkdir not in flight; initializing
+494 silly rollbackFailedOptional Starting
+495 silly rollbackFailedOptional Finishing
+496 silly runTopLevelLifecycles Finishing
+497 silly install printInstalled
+498 verbose stack Error: EPERM: operation not permitted, open 'C:\Program Files\nodejs\node_cache\streamsearch\0.1.2\package.tgz.1899395295'
+499 verbose cwd D:\Webpage\node\lesson15
+500 error Windows_NT 10.0.17134
+501 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "multer"
+502 error node v7.5.0
+503 error npm  v4.1.2
+504 error path C:\Program Files\nodejs\node_cache\streamsearch\0.1.2\package.tgz.1899395295
+505 error code EPERM
+506 error errno -4048
+507 error syscall open
+508 error Error: EPERM: operation not permitted, open 'C:\Program Files\nodejs\node_cache\streamsearch\0.1.2\package.tgz.1899395295'
+508 error  { Error: EPERM: operation not permitted, open 'C:\Program Files\nodejs\node_cache\streamsearch\0.1.2\package.tgz.1899395295'
+508 error   errno: -4048,
+508 error   code: 'EPERM',
+508 error   syscall: 'open',
+508 error   path: 'C:\\Program Files\\nodejs\\node_cache\\streamsearch\\0.1.2\\package.tgz.1899395295',
+508 error   parent: 'dicer' }
+509 error Please try running this command again as root/Administrator.
+510 verbose exit [ -4048, true ]

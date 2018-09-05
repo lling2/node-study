@@ -34,8 +34,8 @@ server.set('views','template');
 server.set('view engine','html');
 
 // 4、route
-// const create = require("./route/web.js")
-// server.use('/article',require('./route/1.js')());
+server.use("/",require("./route/web.js")())
+server.use('/admin',require('./route/admin.js')());
 
 // server.use('/',create());
 server.use('/admin/',require("./route/admin.js")());

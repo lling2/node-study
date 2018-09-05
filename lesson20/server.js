@@ -72,21 +72,54 @@ server.get('/',(req,res)=>{
 server.get('/article',(req,res)=>{
     // 进入article页面
     // 查询article数据库
-    db.query(`SELECT * FROM article_table WHERE ID=${req.query.id}`,(err,data)=>{
-        if(err){
-            res.status(500).send("数据库存在问题").end();
+    if(req.query.id){
+        if(req.query.act=='like'){
+            //增加赞
+            // UPDATE更新数据
+            db.query(`UPDATE article_table SET n_like=n_like+1 WHERE ID=${req.query.id}`,(err,data)=>{
+                if(err){
+                    res.status(500).send("服务器的点赞数据有问题").end();
+                }else{
+                    //显示文章
+                    db.query(`SELECT * FROM article_table WHERE ID=${req.query.id}`,(err,data)=>{
+                        if(err){
+                            res.status(500).send("数据库存在问题").end();
+                        }else{
+                            if(data.length==0){
+                                res.status(404).send("你请求的文章不存在").end();
+                            }else{
+                                var articleData = data[0];
+                                articleData.sDate = common.time2date(articleData.post_time);
+                                articleData.content = articleData.content.replace(/^/gm,'<p>').replace(/$/gm,'</p>');
+                                res.render('conText.ejs',{article_data:articleData});
+                                // console.log(articleData.sDate);
+                            }
+                        }
+                    })
+                        
+                }
+            }) 
         }else{
-            if(data.length==0){
-                res.status(404).send("你请求的文章不存在").end();
-            }else{
-                var articleData = data[0];
-                articleData.sDate = common.time2date(articleData.post_time);
-                articleData.content = articleData.content.replace(/^/gm,'<p>').replace(/$/gm,'</p>');
-                res.render('conText.ejs',{article_data:articleData});
-                // console.log(articleData.sDate);
-            }
-        }
-    })
+            //显示文章
+            db.query(`SELECT * FROM article_table WHERE ID=${req.query.id}`,(err,data)=>{
+                if(err){
+                    res.status(500).send("数据库存在问题").end();
+                }else{
+                    if(data.length==0){
+                        res.status(404).send("你请求的文章不存在").end();
+                    }else{
+                        var articleData = data[0];
+                        articleData.sDate = common.time2date(articleData.post_time);
+                        articleData.content = articleData.content.replace(/^/gm,'<p>').replace(/$/gm,'</p>');
+                        res.render('conText.ejs',{article_data:articleData});
+                        // console.log(articleData.sDate);
+                    }
+                }
+            })
+        }   
+    }else{
+        res.status(404).send("服务器的点赞数据有问题").end();
+    }
 })
 
 // 4、static数据

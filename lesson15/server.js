@@ -21,11 +21,12 @@ for(var i = 0;i<10000;i++){
 server.use(cookieSession({name:'alice',keys:arr,maxAge:20*3600*1000}))
 // 3、post数据
 server.use(bodyParser.urlencoded({extended:false}))
+server.use(multer({deset:'./www/load'}).any())
 
 //用户请求
-// server.use('/',function(req,res,next){
-//     console.log(req.query,req.body,req.files,req.cookies,req.session);
-// })
+server.use('/',function(req,res,next){
+    console.log(req.query,req.body,req.files,req.cookies,req.session);
+})
 
 // 4、配置模板引擎
 // 4.1模板引擎放在哪里？
